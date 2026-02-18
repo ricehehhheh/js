@@ -1,0 +1,16 @@
+const marvel = ["thor", "ironman", "spiderman", "hulk", "captain america"];
+const dc = ["superman", "batman", "flash", "aquaman", "wonder"];
+// marvel.push(dc)
+// console.log(marvel);
+// console.log(marvel[3][1]);
+
+// const allHeroes = marvel.concat(dc);
+// console.log(allHeroes);
+
+const allnewHeroes = [...marvel, ...dc];
+// console.log(allnewHeroes);
+
+const another_array = [1,3,5,6, [2,4,6,5], 55, [5,6,7,3,[56,7]]]; 
+const real_array = another_array.flat(Infinity);
+console.log(real_array);
+
